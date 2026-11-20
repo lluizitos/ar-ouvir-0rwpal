@@ -121,13 +121,8 @@
    ],
    "versoes": [
     {
-     "nome": "Let me Go Home (M6.1)",
-     "obs": "Com os ajustes pedidos",
-     "ouvir": "audio/home-m6-1.mp3"
-    },
-    {
      "nome": "Let me Go Home (M6.1) com percussão",
-     "obs": "Mesma versão, com percussão para dar mais gingado",
+     "obs": "Com percussão para dar mais gingado",
      "ouvir": "audio/home-m6-1-percussao.mp3"
     }
    ]
