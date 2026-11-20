@@ -1,0 +1,276 @@
+{
+ "atualizado": "20/11/2026",
+ "geral": [
+  "Fade de 0,5 s no início e no fim de todas as músicas"
+ ],
+ "envio_url": "",
+ "musicas": [
+  {
+   "n": 1,
+   "id": "intro",
+   "nome": "Intro / Feeling Good",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Corrigir a voz abafada em 1:50",
+     "feito": false
+    },
+    {
+     "texto": "Aumentar as ambiências do público no “Alô Divinópolis”",
+     "feito": false
+    },
+    {
+     "texto": "Separar How Deep Is Your Love em faixa nova",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "how-deep",
+   "nome": "How Deep Is Your Love",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Criar a faixa separada da abertura",
+     "feito": false
+    },
+    {
+     "texto": "Se der, tirar a risada grossa no final",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "down-under",
+   "nome": "Down Under",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Retirar as falas iniciais",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "girls-fun",
+   "nome": "Girls Just Want to Have Fun / Believe",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Separar a What a Feeling em faixa nova",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "what-a-feeling",
+   "nome": "What a Feeling",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Criar a faixa só com essa canção",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "i-want-to-know",
+   "nome": "I Wanna Know What Love Is",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Retirar o pianinho de outra música no final",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "home",
+   "nome": "Home (com o Dino)",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Voz do Dino equivalente à do Arthur",
+     "feito": false
+    },
+    {
+     "texto": "Mostrar o público quando os dois começam a cantar",
+     "feito": false
+    },
+    {
+     "texto": "Mostrar o público no “Arthur Rodrigues, Divinópolis”",
+     "feito": false
+    },
+    {
+     "texto": "Mandar à parte o diálogo antes da música (fora do áudio)",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "lulu-santos",
+   "nome": "Lulu Santos",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Afinar o início: “eu gosto tanto de você…”",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "new-york",
+   "nome": "New York",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Corrigir a ambiência que sobe do nada em 2:29",
+     "feito": false
+    },
+    {
+     "texto": "Aumentar um pouco os metais do VS",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "your-man",
+   "nome": "Your Man",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Tirar 1 min de instrumental e ir direto ao início",
+     "feito": false
+    },
+    {
+     "texto": "Mostrar o público eufórico quando a música começa",
+     "feito": false
+    },
+    {
+     "texto": "Afinar o “lights down LOWWW” em 1:23",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "pout-2",
+   "nome": "Pout 2",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Separar as duas músicas em duas faixas",
+     "feito": false
+    },
+    {
+     "texto": "Afinar o “WHEEEN” em 0:15",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "pout-2b",
+   "nome": "Pout 2 — 2ª música",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Criar a faixa com a 2ª música do pout-pourri",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "so-far-away",
+   "nome": "So Far Away (pout)",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Tirar a risada grossa",
+     "feito": false
+    },
+    {
+     "texto": "Ver se dá pra pôr as guitarras do VS nos solos em que o Matheusinho erra",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "sound-of-silence",
+   "nome": "Sound of Silence",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Tirar a intro instrumental de 1 min, mantendo a mulher gritando",
+     "feito": false
+    },
+    {
+     "texto": "Aumentar um pouco a reação do público quando ele começa a cantar",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "the-scientist",
+   "nome": "The Scientist",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": [
+    {
+     "texto": "Aumentar a 2ª voz do VS no refrão com a banda toda",
+     "feito": false
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "id": "bob-dylan",
+   "nome": "Bob Dylan",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": []
+  },
+  {
+   "n": 17,
+   "id": "pout-1",
+   "nome": "Pout 1",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": []
+  },
+  {
+   "n": 18,
+   "id": "unchained-melody",
+   "nome": "Unchained Melody",
+   "versao": null,
+   "status": "ajuste",
+   "ajustes": []
+  }
+ ]
+}
