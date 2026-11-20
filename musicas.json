@@ -97,6 +97,43 @@
   },
   {
    "n": 7,
+   "id": "home",
+   "nome": "Home (com o Dino)",
+   "versao": "M6.3",
+   "status": "enviada",
+   "ajustes": [
+    {
+     "texto": "Voz do Dino equivalente à do Arthur",
+     "feito": true
+    },
+    {
+     "texto": "Mostrar o público quando os dois começam a cantar",
+     "feito": true
+    },
+    {
+     "texto": "Mostrar o público no “Arthur Rodrigues, Divinópolis”",
+     "feito": true
+    },
+    {
+     "texto": "Mandar à parte o diálogo antes da música (fora do áudio)",
+     "feito": false
+    }
+   ],
+   "versoes": [
+    {
+     "nome": "Let me Go Home (M6.3)",
+     "obs": "Versão nova",
+     "ouvir": "audio/home-m6-3.mp3"
+    },
+    {
+     "nome": "Let me Go Home (M6.1) com percussão",
+     "obs": "Com percussão para dar mais gingado",
+     "ouvir": "audio/home-m6-1-percussao.mp3"
+    }
+   ]
+  },
+  {
+   "n": 8,
    "id": "lulu-santos",
    "nome": "Lulu Santos",
    "versao": null,
@@ -109,7 +146,7 @@
    ]
   },
   {
-   "n": 8,
+   "n": 9,
    "id": "new-york",
    "nome": "New York",
    "versao": null,
@@ -126,7 +163,7 @@
    ]
   },
   {
-   "n": 9,
+   "n": 10,
    "id": "your-man",
    "nome": "Your Man",
    "versao": null,
@@ -147,7 +184,7 @@
    ]
   },
   {
-   "n": 10,
+   "n": 11,
    "id": "pout-2",
    "nome": "Pout 2",
    "versao": null,
@@ -164,7 +201,7 @@
    ]
   },
   {
-   "n": 11,
+   "n": 12,
    "id": "pout-2b",
    "nome": "Pout 2 — 2ª música",
    "versao": null,
@@ -177,7 +214,7 @@
    ]
   },
   {
-   "n": 12,
+   "n": 13,
    "id": "so-far-away",
    "nome": "So Far Away (pout)",
    "versao": null,
@@ -194,7 +231,7 @@
    ]
   },
   {
-   "n": 13,
+   "n": 14,
    "id": "sound-of-silence",
    "nome": "Sound of Silence",
    "versao": null,
@@ -211,7 +248,7 @@
    ]
   },
   {
-   "n": 14,
+   "n": 15,
    "id": "the-scientist",
    "nome": "The Scientist",
    "versao": null,
@@ -224,7 +261,7 @@
    ]
   },
   {
-   "n": 15,
+   "n": 16,
    "id": "bob-dylan",
    "nome": "Bob Dylan",
    "versao": null,
@@ -232,7 +269,7 @@
    "ajustes": []
   },
   {
-   "n": 16,
+   "n": 17,
    "id": "pout-1",
    "nome": "Pout 1",
    "versao": null,
@@ -240,7 +277,7 @@
    "ajustes": []
   },
   {
-   "n": 17,
+   "n": 18,
    "id": "unchained-melody",
    "nome": "Unchained Melody",
    "versao": null,
