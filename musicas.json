@@ -99,7 +99,7 @@
    "n": 7,
    "id": "home",
    "nome": "Home (com o Dino)",
-   "versao": "M6.1",
+   "versao": "M6.2",
    "status": "enviada",
    "ajustes": [
     {
@@ -120,6 +120,11 @@
     }
    ],
    "versoes": [
+    {
+     "nome": "Let me Go Home (M6.2)",
+     "obs": "Com mais guitarra e VS",
+     "ouvir": "audio/home-m6-2.mp3"
+    },
     {
      "nome": "Let me Go Home (M6.1) com percussão",
      "obs": "Com percussão para dar mais gingado",
