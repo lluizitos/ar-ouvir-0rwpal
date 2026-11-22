@@ -214,8 +214,8 @@
    "n": 13,
    "id": "so-far-away",
    "nome": "So Far Away (pout)",
-   "versao": "M4.9",
-   "status": "enviada",
+   "versao": null,
+   "status": "ajuste",
    "ajustes": [
     {
      "texto": "Tirar a risada grossa",
@@ -224,15 +224,6 @@
     {
      "texto": "Ver se dá pra pôr as guitarras do VS nos solos em que o Matheusinho erra",
      "feito": true
-    }
-   ],
-   "versoes": [
-    {
-     "nome": "So Far Away (M4.9)",
-     "obs": "Com os ajustes pedidos",
-     "ouvir": "audio/so-far-away-m4-9.mp3",
-     "mp3": "14RkjMtph1f-XB1Ut6E-VCBx_SDsL2N7u",
-     "wav": "1Vo5XO0_rdVqsmeclo-8FMl1p5L7mxumn"
     }
    ]
   },
