@@ -123,7 +123,9 @@
     {
      "nome": "Let me Go Home (M6.3)",
      "obs": "Versão nova",
-     "ouvir": "audio/home-m6-3.mp3"
+     "ouvir": "audio/home-m6-3.mp3",
+     "mp3": "1-idGnr7_nh7FXeQcvPQpLzVuPtVoG5O4",
+     "wav": "1d596SDZT__pry-2z663hlD72oNvFNfDb"
     }
    ]
   },
@@ -228,7 +230,9 @@
     {
      "nome": "So Far Away (M4.9)",
      "obs": "Com os ajustes pedidos",
-     "ouvir": "audio/so-far-away-m4-9.mp3"
+     "ouvir": "audio/so-far-away-m4-9.mp3",
+     "mp3": "14RkjMtph1f-XB1Ut6E-VCBx_SDsL2N7u",
+     "wav": "1Vo5XO0_rdVqsmeclo-8FMl1p5L7mxumn"
     }
    ]
   },

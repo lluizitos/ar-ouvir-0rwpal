@@ -127,7 +127,7 @@ const fmt=b=>b>=1073741824?(b/1073741824).toFixed(2).replace(".",",")+" GB":b>=1
 
 fetch("musicas.json?v="+Date.now()).then(r=>r.json()).then(d=>{
   ENVIO=d.envio_url||"";
-  if(d.musicas.some(m=>m.mp3||m.versoes))document.getElementById("sub").textContent="Toque no play para ouvir aqui."+(d.musicas.some(m=>m.mp3)?" MP3 e WAV baixam direto no celular.":"")+" Embaixo de cada música estão os ajustes que você pediu, marcados conforme ficam prontos.";
+  if(d.musicas.some(m=>m.mp3||m.versoes))document.getElementById("sub").textContent="Toque no play para ouvir aqui."+(d.musicas.some(m=>m.mp3||(m.versoes||[]).some(v=>v.mp3))?" MP3 e WAV baixam direto no celular.":"")+" Embaixo de cada música estão os ajustes que você pediu, marcados conforme ficam prontos.";
   const c={ajuste:0,finalizada:0,previa:0,aprovada:0,enviada:0,finalizando:0,arquivos:0};d.musicas.forEach(m=>c[m.status]++);
   const ct=document.getElementById("count");
   [["finalizada","finalizadas"],["ajuste","em ajuste"],["previa","em prévia"],["aprovada","aprovadas"],["enviada","com você"],["finalizando","finalizando"],["arquivos","esperando arquivos"]].forEach(([k,l])=>{if(c[k]){const s=el("span");s.append(el("b",null,c[k]+" "),document.createTextNode(l));ct.append(s)}});
@@ -149,7 +149,11 @@ fetch("musicas.json?v="+Date.now()).then(r=>r.json()).then(d=>{
       vs.append(el("div","vh",m.versoes.length>1?"Escolha a versão":"Versão para ouvir"));
       m.versoes.forEach(v=>{const r=el("div","ver");const n=el("div","vn",v.nome);if(v.obs)n.append(el("small",null,v.obs));
         const b=el("button","play");b.type="button";b.innerHTML=PLAY;b.setAttribute("aria-label","Ouvir "+v.nome);
-        b.onclick=()=>toggle(v,r,b);r.append(n,b);vs.append(r)});
+        b.onclick=()=>toggle(v,r,b);r.append(n,b);vs.append(r);
+        if(v.mp3||v.wav){const bt=el("div","btns");bt.style.marginTop="0";
+          [["mp3","Baixar MP3","para ouvir"],["wav","Baixar WAV","qualidade máxima"]].forEach(([k,l,s])=>{if(!v[k])return;
+            const a=el("a","btn");a.href=dl(v[k]);a.rel="noopener";a.append(document.createTextNode(l),el("small",null,s));bt.append(a)});
+          vs.append(bt)}});
       card.append(vs)}
     if(m.ajustes&&m.ajustes.length)card.append(ajustes(m.ajustes));
     if(m.feedback)card.append(feedback(m.feedback));
