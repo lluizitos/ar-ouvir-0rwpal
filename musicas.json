@@ -1,5 +1,5 @@
 {
- "atualizado": "22/11/2026",
+ "atualizado": "23/11/2026",
  "geral": [
   "Fade de 0,5 s no início e no fim de todas as músicas"
  ],
@@ -214,8 +214,8 @@
    "n": 13,
    "id": "so-far-away",
    "nome": "So Far Away (pout)",
-   "versao": null,
-   "status": "ajuste",
+   "versao": "M4.12",
+   "status": "enviada",
    "ajustes": [
     {
      "texto": "Tirar a risada grossa",
@@ -224,6 +224,15 @@
     {
      "texto": "Ver se dá pra pôr as guitarras do VS nos solos em que o Matheusinho erra",
      "feito": true
+    }
+   ],
+   "versoes": [
+    {
+     "nome": "So Far Away (M4.12)",
+     "obs": "Com os ajustes pedidos",
+     "ouvir": "audio/so-far-away-m4-12.mp3",
+     "mp3": "1ufxQXK92d2Yyy60I6wWbzIhcq-0KssWa",
+     "wav": "1MIJVRRisTRUnAtLBcrVKXPAS0-4FEyvR"
     }
    ]
   },
