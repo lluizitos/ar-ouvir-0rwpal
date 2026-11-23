@@ -127,6 +127,7 @@ const fmt=b=>b>=1073741824?(b/1073741824).toFixed(2).replace(".",",")+" GB":b>=1
 
 fetch("musicas.json?v="+Date.now()).then(r=>r.json()).then(d=>{
   ENVIO=d.envio_url||"";
+  const ent=m=>!!(m.mp3||(m.versoes||[]).some(v=>v.mp3||v.ouvir));d.musicas=d.musicas.filter(ent).concat(d.musicas.filter(m=>!ent(m)));
   if(d.musicas.some(m=>m.mp3||m.versoes))document.getElementById("sub").textContent="Toque no play para ouvir aqui."+(d.musicas.some(m=>m.mp3||(m.versoes||[]).some(v=>v.mp3))?" MP3 e WAV baixam direto no celular.":"")+" Embaixo de cada música estão os ajustes que você pediu, marcados conforme ficam prontos.";
   const c={ajuste:0,finalizada:0,previa:0,aprovada:0,enviada:0,finalizando:0,arquivos:0};d.musicas.forEach(m=>c[m.status]++);
   const ct=document.getElementById("count");
