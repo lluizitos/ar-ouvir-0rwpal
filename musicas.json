@@ -60,12 +60,21 @@
    "n": 4,
    "id": "girls-fun",
    "nome": "Girls Just Want to Have Fun / Believe",
-   "versao": null,
-   "status": "ajuste",
+   "versao": "M7.1",
+   "status": "enviada",
    "ajustes": [
     {
      "texto": "Separar a What a Feeling em faixa nova",
      "feito": false
+    }
+   ],
+   "versoes": [
+    {
+     "nome": "Girls Just Want to Have Fun / Believe (M7.1)",
+     "obs": "Versão nova",
+     "ouvir": "audio/girls-fun-m7-1.mp3",
+     "mp3": "1lZnaWthhq8WPuOCvh24TqaAQD0oRJcb4",
+     "wav": "1uho_VPa9GMzGPS5d8SEnRpG3_Er-6fUP"
     }
    ]
   },
