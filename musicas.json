@@ -1,5 +1,5 @@
 {
- "atualizado": "23/11/2026",
+ "atualizado": "24/11/2026",
  "geral": [
   "Fade de 0,5 s no início e no fim de todas as músicas"
  ],
@@ -83,12 +83,22 @@
    "n": 5,
    "id": "what-a-feeling",
    "nome": "What a Feeling",
-   "versao": null,
-   "status": "ajuste",
+   "versao": "M7.1",
+   "status": "enviada",
    "ajustes": [
     {
      "texto": "Criar a faixa só com essa canção",
-     "feito": false
+     "feito": true
+    }
+   ],
+   "novo": "2026-11-24",
+   "versoes": [
+    {
+     "nome": "What a Feeling (M7.1)",
+     "obs": "Versão nova",
+     "ouvir": "audio/what-a-feeling-m7-1.mp3",
+     "mp3": "1ZwSa0_iya36LncVSF4LVLItEhzWIsk3W",
+     "wav": "1X536L9aGTjKtLPfJZweEHrWooHC5fBxE"
     }
    ]
   },
