@@ -30,18 +30,28 @@
    "n": 2,
    "id": "how-deep",
    "nome": "How Deep Is Your Love",
-   "versao": null,
-   "status": "ajuste",
+   "versao": "M8",
+   "status": "enviada",
    "ajustes": [
     {
      "texto": "Criar a faixa separada da abertura",
-     "feito": false
+     "feito": true
     },
     {
      "texto": "Se der, tirar a risada grossa no final",
-     "feito": false
+     "feito": true
     }
-   ]
+   ],
+   "versoes": [
+    {
+     "nome": "How Deep Is Your Love (M8)",
+     "obs": "Versão nova",
+     "ouvir": "audio/how-deep-m8.mp3",
+     "mp3": "1Thu2KvGdt8_iaVC6q79cAlbKjfmjtYdE",
+     "wav": "1K0dw4Z74WWAhg8EHJeqrUtV5Wzln3Ono"
+    }
+   ],
+   "novo": "2026-11-26"
   },
   {
    "n": 3,
