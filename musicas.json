@@ -9,22 +9,32 @@
    "n": 1,
    "id": "intro",
    "nome": "Intro / Feeling Good",
-   "versao": null,
-   "status": "ajuste",
+   "versao": "M8.1",
+   "status": "enviada",
    "ajustes": [
     {
      "texto": "Corrigir a voz abafada em 1:50",
-     "feito": false
+     "feito": true
     },
     {
      "texto": "Aumentar as ambiências do público no “Alô Divinópolis”",
-     "feito": false
+     "feito": true
     },
     {
      "texto": "Separar How Deep Is Your Love em faixa nova",
-     "feito": false
+     "feito": true
     }
-   ]
+   ],
+   "versoes": [
+    {
+     "nome": "Intro / Feeling Good (M8.1)",
+     "obs": "Versão nova",
+     "ouvir": "audio/intro-m8-1.mp3",
+     "mp3": "1k8br3QaPF0uH4BVMG6AgtITfbUQmqean",
+     "wav": "1YCna96ekgqUTMS_Hf80xO5Ei1mtSrFr2"
+    }
+   ],
+   "novo": "2026-11-26"
   },
   {
    "n": 2,
