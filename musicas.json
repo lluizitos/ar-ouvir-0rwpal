@@ -193,14 +193,24 @@
    "n": 8,
    "id": "lulu-santos",
    "nome": "Lulu Santos",
-   "versao": null,
-   "status": "ajuste",
+   "versao": "M3",
+   "status": "enviada",
    "ajustes": [
     {
      "texto": "Afinar o início: “eu gosto tanto de você…”",
-     "feito": false
+     "feito": true
     }
-   ]
+   ],
+   "versoes": [
+    {
+     "nome": "Lulu Santos (M3)",
+     "obs": "Versão nova",
+     "ouvir": "audio/lulu-santos-m3.mp3",
+     "mp3": "16LBxtZSB81a41yj_5esesmBFDE_w-mz_",
+     "wav": "1GgMVHTRElMtl896javTA6NUNvBPHQ3XM"
+    }
+   ],
+   "novo": "2026-11-27"
   },
   {
    "n": 9,
