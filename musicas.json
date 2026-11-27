@@ -57,14 +57,24 @@
    "n": 3,
    "id": "down-under",
    "nome": "Down Under",
-   "versao": null,
-   "status": "ajuste",
+   "versao": "M9",
+   "status": "enviada",
    "ajustes": [
     {
      "texto": "Retirar as falas iniciais",
-     "feito": false
+     "feito": true
     }
-   ]
+   ],
+   "versoes": [
+    {
+     "nome": "Down Under (M9)",
+     "obs": "Versão nova",
+     "ouvir": "audio/down-under-m9.mp3",
+     "mp3": "1h0zSy72yTq_nxTgOAMWWnRA0J2jecUbj",
+     "wav": "1d1ZrigXCKdJ5tMIEm9OXQ3RB2QXg3FzV"
+    }
+   ],
+   "novo": "2026-11-26"
   },
   {
    "n": 4,
