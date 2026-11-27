@@ -136,14 +136,24 @@
    "n": 6,
    "id": "i-want-to-know",
    "nome": "I Wanna Know What Love Is",
-   "versao": null,
-   "status": "ajuste",
+   "versao": "M4",
+   "status": "enviada",
    "ajustes": [
     {
      "texto": "Retirar o pianinho de outra música no final",
-     "feito": false
+     "feito": true
     }
-   ]
+   ],
+   "versoes": [
+    {
+     "nome": "I Wanna Know What Love Is (M4)",
+     "obs": "Versão nova",
+     "ouvir": "audio/i-want-to-know-m4.mp3",
+     "mp3": "1dpr-_j4P4bnaPGBdL6zBdV9nrbrXJScK",
+     "wav": "17VGjSuu6HQ15bhzIFRcHIv9ZN6BSLIux"
+    }
+   ],
+   "novo": "2026-11-27"
   },
   {
    "n": 7,
